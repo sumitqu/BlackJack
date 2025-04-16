@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #f79e38;
+    text-align: center;
+    padding-top: 26px;
+}
+
+#game-board {
+    background-color: green;
+    height: 521px;
+    margin-bottom: 20px;
+}
+
+
+#para {
+    font-size: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: antiquewhite;
+    text-align: center;
+}
+
+.x {
+    font-size: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: antiquewhite;
+    text-align: center;
+}
+
+#messagel {
+    font-style: italic;
+}
+
+#btn1 {
+    display: block;
+    margin: 8px auto;
+    background-color: #f79e38;
+    color: green;
+    font-size: 25px;
+    padding: 10px 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+    box-shadow: none;
+    border-radius: 5px;
+}
+
+#btn2 {
+    display: block;
+    margin: 8px auto;
+    background-color: #f79e38;
+    color: green;
+    font-size: 25px;
+    padding: 10px 29px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+    box-shadow: none;
+    border-radius: 5px;
+}
+
+#btn1:active {
+    background-color: #ffd700;
+    /* a slightly darker shade of yellow */
+}
+
+#btn2:active {
+    background-color: #ffd700;
+    /* a slightly darker shade of yellow */
+}
+
+
+#game-controls {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #777;
+}
